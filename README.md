@@ -2,6 +2,8 @@
 
 
 A GUI application for analyzing and visualizing test failure reports from Selenium test results.
+The application searches multiple large text files to extract the final results of the test automation.
+The programme looks for the strink "Failing Scenarios" to identify the list of failes test cases.
 
 ## Features
 
@@ -13,11 +15,9 @@ A GUI application for analyzing and visualizing test failure reports from Seleni
 - 🗓️ Smart date formatting and sorting
 - 📂 Handles large test result files efficiently
 
-
 Install dependencies:
 
 pip install -r requirements.txt
-
 
 ## Requirements
 
